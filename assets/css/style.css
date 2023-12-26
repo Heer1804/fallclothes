@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'ER Garamond', sans-serifx;
+}
+
+nav{
+    height: 100px;
+    align-items: center;
+}
+
+.topic{
+    padding: 16.2% 0% 16.4% 0%;
+}
+
+.collection{
+    padding:115px 0px 130px 0px;
+}
+
+.c_title{
+    top: 250px;
+    left: 0;
+    transform: none;
+    text-align: left;
+    color: black;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    padding: 0px 10px 0px 8px;
+}
+
+.stories{
+    padding: 95px 0px 124px 0px;
+}
+
+.sc_link ul{
+    padding: 0 !important;
+}
+
+.sc_link button{
+    padding: 0 !important;
+}
+
+.products{
+    padding: 115px 0px 107px 0px;
+}
+
+.p_pddy{
+    padding: 19px 0px 11px 0px;
+}

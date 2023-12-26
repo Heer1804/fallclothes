@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- remixicon -->
+    <link rel="stylesheet" href="assets/fonts/remixicon.css">
+
+    <!-- bs -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar nav navbar-expand-lg bg-white">
+        <div class="container-fluid ">
+            <a href="javascript:void(0);">
+                <img src="assets/image/logo.png" class="img-fluid navbar-brand navbar ms-4" alt="" width="80px">
+            </a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#click">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="click">
+                <ul class="navbar-nav ms-auto text-light ">
+                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Shop</a></li>
+                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link">Contact</a></li>
+
+                    <li class="nav-item">
+                        <a href="javascript:void(0);" class="nav-link ">
+                            <i class="ri-shopping-cart-2-fill" data-bs-toggle="offcanvas" data-bs-target="#oc"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link ">
+                            <button class="btn btn-primary mb-md-2" data-bs-toggle="modal"
+                                data-bs-target="#mo">Modal</button>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start bg-warning-subtle ps-3" id="oc" data-bs-scroll="true"
+        data-bs-backdrop="false">
+        <div class="offcanvas-header ">
+            <h2 class="offcanvas-title ">Shopping cart</h2>
+            <button class="btn-close " data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h5>Your Shopping Cart is Currently Empty</h5>
+            <a href="javascript:void(0);">
+                <button class="btn btn-warning mt-4 ">Shop Now</button>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- modal -->
+    <div class="modal" id="mo" data-bs-scroll="true" data-bs-backdrop="false">
+        <div class="modal-dialog ">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h4 class="modal-title ">Modal Title</h4>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, suscipit nesciunt. Hic
+                        voluptate cumque dignissimos error dolores eum.
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main -->
+    <section style="background-image: url(assets/image/1.jpg);  background-repeat: no-repeat; background-size: cover;">
+        <div class="main">
+            <div class="topic text-light text-center ">
+                <h1 >Fall Winter 2019</h1>
+                <span>
+                    <p class="fs-4 fw-light ">Discover the editorial</p>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- collection -->
+    <section class="collection">
+        <div class="container ">
+            <div class="c_dsc">
+                <h1 class="fw-bolder">Collection</h1>
+                <span>
+                    <p class="fs-4">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                </span>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 pb-4">
+                    <a href="javascript:void(0);" class="position-relative">
+                        <img src="assets/image/2.jpg" alt="" class="img-fluid ">
+                        <h4 class="c_title fw-bold position-absolute top-lg-250">Skirts & Shorts</h4>
+                    </a>
+
+                </div>
+                <div class="col-lg-4 pb-4">
+                    <a href="javascript:void(0);" class="position-relative">
+                        <img src="assets/image/3.jpg" alt="" class="img-fluid ">
+                        <h4 class="c_title fw-bold position-absolute">Jackets </h4>
+                    </a>
+
+                </div>
+                <div class="col-lg-4 pb-4">
+                    <a href="javascript:void(0);" class="position-relative">
+                        <img src="assets/image/4.jpg" alt="" class="img-fluid ">
+                        <h4 class="c_title fw-bold position-absolute">Coats</h4>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- stories -->
+    <section class="stories bg-secondary-subtle">
+        <div class="container">
+            <div class="s_dsc text-center ">
+                <h1 class="fw-bold display-4">Fashion Stories</h1>
+                <span>
+                    <p class="fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </span>
+            </div>
+
+            <div class="row">
+                <div class="s_card col-lg-4 pb-4">
+                    <div class="s_pic w-100">
+                        <img src="assets/image/7.jpg" class="img-fluid ">
+                    </div>
+                    <div class="sc_link">
+                        <ul class="d-flex">
+                            <li class="me-1 list-unstyled"><a href="javascript:void(0);"
+                                    class="nav-item nav-link text-secondary ">Clothes,</a></li>
+                            <li class="me-1 list-unstyled"><a href="javascript:void(0);"
+                                    class="nav-item nav-link text-secondary ">Fashion,</a></li>
+                            <li class="me-1 list-unstyled"><a href="javascript:void(0);"
+                                    class="nav-item nav-link text-secondary ">Style,</a>
+                            </li>
+                            <li class="me-1 list-unstyled"><a href="javascript:void(0);"
+                                    class="nav-item nav-link text-secondary ">Trends</a>
+                            </li>
+                        </ul>
+                        <span class="s_dsc mb-3 ">
+                            <p class="fs-4 fw-bold ">Fashion diary: Seven fashion pieces that will probably never go out
+                                of
+                                style!</p>
+                        </span>
+                        <a href="javascript:void(0);">
+                            <button class="btn fw-bold text-decoration-underline ">Read More</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="s_card col-lg-4 pb-4">
+                    <div class="s_pic w-100">
+                        <img src="assets/image/8.jpg" class="img-fluid ">
+                    </div>
+                    <div class="sc_link">
+                        <ul class="d-flex">
+                            <li class="me-1 list-unstyled"><a href="javascript:void(0);"
+                                    class="nav-item nav-link text-secondary ">Clothes,</a></li>
+                            <li class="me-1 list-unstyled"><a href="javascript:void(0);"
+                                    class="nav-item nav-link text-secondary ">Fashion,</a></li>
+                            <li class="me-1 list-unstyled"><a href="javascript:void(0);"
+                                    class="nav-item nav-link text-secondary ">Style,</a>
+                            </li>
+                            <li class="me-1 list-unstyled"><a href="javascript:void(0);"
+                                    class="nav-item nav-link text-secondary ">Trends</a>
+                            </li>
+                        </ul>
+                        <span class="s_dsc mb-3 ">
+                            <p class="fs-4 fw-bold ">Fashion diary: Seven fashion pieces that will probably never go out
+                                of
+                                style!</p>
+                        </span>
+                        <a href="javascript:void(0);">
+                            <button class="btn fw-bold text-decoration-underline ">Read More</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="s_card col-lg-4 pb-4">
+                    <div class="s_pic w-100">
+                        <img src="assets/image/9.jpg" alt="" class="img-fluid ">
+                    </div>
+                    <div class="sc_link">
+                        <ul class="d-flex">
+                            <li class="me-1 list-unstyled"><a href="javascript:void(0);"
+                                    class="nav-item nav-link text-secondary ">Clothes,</a></li>
+                            <li class="me-1 list-unstyled"><a href="javascript:void(0);"
+                                    class="nav-item nav-link text-secondary ">Fashion,</a></li>
+                            <li class="me-1 list-unstyled"><a href="javascript:void(0);"
+                                    class="nav-item nav-link text-secondary ">Style,</a>
+                            </li>
+                            <li class="me-1 list-unstyled"><a href="javascript:void(0);"
+                                    class="nav-item nav-link text-secondary ">Trends</a>
+                            </li>
+                        </ul>
+                        <span class="s_dsc mb-3 ">
+                            <p class="fs-4 fw-bold ">Fashion diary: Seven fashion pieces that will probably never go out
+                                of
+                                style!</p>
+                        </span>
+                        <a href="javascript:void(0);">
+                            <button class="btn fw-bold text-decoration-underline ">Read More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- shop -->
+    <section class="products">
+        <div class="container ">
+            <div class="p_title mb-5">
+                <h4 class="fw-bold display-4">Popular Products</h4>
+                <span>
+                    <p class="fs-4 ">Lorem ipsum dolor sit amet consectetur,</p>
+                </span>
+            </div>
+            <div class="p_main">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <a href="javascript:void(0);">
+                            <img src="assets/image/10.jpg" alt="p-1" class="img-fluid h-75 w-100">
+                        </a>
+                        <div class="p_dsc p_pddy">
+                            <div class="p_price justify-content-between d-lg-flex ">
+                                <h4 class="fw-bold ">Wool Hat</h4>
+                                <div class="fs-5 ">$40.00</div>
+                            </div>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Accessories,</a></span>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Clothes</a></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="javascript:void(0);">
+                            <img src="assets/image/17.jpg" alt="p-2" class="img-fluid h-75 w-100">
+                        </a>
+                        <div class="p_dsc p_pddy">
+                            <div class="p_price justify-content-between d-lg-flex ">
+                                <h4 class="fw-bold ">Earrings</h4>
+                                <div class="fs-5">$30.00</div>
+                            </div>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Accessories</a></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="javascript:void(0);">
+                            <img src="assets/image/12.jpg" alt="p-3" class="img-fluid h-75 w-100">
+                        </a>
+                        <div class="p_dsc p_pddy">
+                            <div class="p_price justify-content-between d-lg-flex ">
+                                <h4 class="fw-bold ">Overcoat</h4>
+                                <div class="fs-5">$140.00</div>
+                            </div>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Coats,</a></span>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Clothes</a></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="javascript:void(0);">
+                            <img src="assets/image/13.jpg" alt="p-4" class="img-fluid h-75 w-100">
+                        </a>
+                        <div class="p_dsc p_pddy">
+                            <div class="p_price justify-content-between d-lg-flex ">
+                                <h4 class="fw-bold ">Trench coat</h4>
+                                <div class="fs-5">$110.00</div>
+                            </div>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Coats,</a></span>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Clothes</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <a href="javascript:void(0);">
+                            <img src="assets/image/14.jpg" alt="p-5" class="img-fluid h-75 w-100">
+                        </a>
+                        <div class="p_dsc p_pddy">
+                            <div class="p_price justify-content-between d-lg-flex ">
+                                <h4 class="fw-bold "> Modern skirt </h4>
+                                <div class="fs-5 ">$80.00</div>
+                            </div>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Skirts & Shorts,</a></span>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Clothes</a></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="javascript:void(0);">
+                            <img src="assets/image/6.jpg" alt="p-6" class="img-fluid h-75 w-100">
+                        </a>
+                        <div class="p_dsc p_pddy">
+                            <div class="p_price justify-content-between d-lg-flex ">
+                                <h4 class="fw-bold ">Bag</h4>
+                                <div class="fs-5">$40.00</div>
+                            </div>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Accessories</a></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="javascript:void(0);">
+                            <img src="assets/image/16.jpg" alt="p-7" class="img-fluid h-75 w-100">
+                        </a>
+                        <div class="p_dsc p_pddy">
+                            <div class="p_price justify-content-between d-lg-flex ">
+                                <h4 class="fw-bold ">Red Bag</h4>
+                                <div class="fs-5">$100.00</div>
+                            </div>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Bags,</a></span>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Accessories</a></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="javascript:void(0);">
+                            <img src="assets/image/18.jpg" alt="p-4" class="img-fluid h-75 w-100">
+                        </a>
+                        <div class="p_dsc p_pddy">
+                            <div class="p_price justify-content-between d-lg-flex ">
+                                <h4 class="fw-bold ">Leather watch</h4>
+                                <div class="fs-5">$130.00</div>
+                            </div>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Accessories,</a></span>
+                            <span><a href="javascript:void(0);"
+                                    class="text-decoration-none list-unstyled text-secondary">Clothes</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog -->
+    <section class="">
+        <div class="container">
+            <div class="blog text-center ">
+                <h2 class="fw-bold display-4 mb-4">Blog</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <img src="assets/image/5.jpg" alt="blog-1" class="mb-3 w-100 ">
+                    <div>
+                        <a href="javascript:void(0);" class="text-decoration-none list-unstyled text-secondary ">May 13, 2021 / Materials / By: Sandra Jones </a>
+                        <div>
+                            <p class="text-black fw-bold fs-5 ">Tips and Tricks: How to transform your day look for a night out!</p>
+                            <p>Lorem ipsum dolor sit amet, ne sit odio harum pertinacia, eum at ludus everti. Zril legimus albucius vis et, eam esse accumsan deseruisse ei. Repudiare contentiones ne pri. Per ubique consulatu id, dico eligendi lobortis qui ad, nihil essent percipit cu quo. No eos iudico meliore maiestatis. Usu vero dissentiunt ea exerci accusata corrumpit. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="assets/image/7.jpg" alt="" class="img-fluid w-100 ">
+                    <div>
+                        <a href="javascript:void(0);" class="text-decoration-none list-unstyled text-secondary ">Arpil 18, 2021 / Materials,styles, clothes / By: Sandra Jones </a>
+                        <div>
+                            <p class="text-black fw-bold fs-5 ">Fashion diary: Seven fashion pieces that will probably never go out of style!</p>
+                            <p>Lorem ipsum dolor sit amet, ne sit odio harum pertinacia, eum at ludus everti. Zril legimus albucius vis et, eam esse accumsan deseruisse ei. Repudiare contentiones ne pri. Per ubique consulatu id, dico eligendi lobortis qui ad</p>
+                        </div>
+                        <button class="btn p-0 text-decoration-underline ">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
